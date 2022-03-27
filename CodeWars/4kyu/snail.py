@@ -1,3 +1,5 @@
+"""To refactor"""
+
 def snail(snail_map):
     x, y = 0, 0
     xwyk = 0
