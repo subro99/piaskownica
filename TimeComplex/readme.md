@@ -1,0 +1,1 @@
+Opis medodologii pomiaru czasu.
