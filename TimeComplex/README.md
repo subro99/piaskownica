@@ -3,3 +3,7 @@ Experiment is about measure time of creation lists of int elements depending on 
 - map function
 - standard for loop with append at the end of the list
 - list comprehension
+
+**Setup:**
+list size -from 0 to 10 000
+time - summary time measuring creation list with different methods x times
