@@ -17,7 +17,7 @@ nowa_lista = list(map(lambda x: x, lista))
 
 def list_comp(lista):
     start_time = time.time()
-    nowa_lista = [x for x in lista]
+    nowa_lista = [x**x for x in lista]
     return time.time() - start_time
 
 
@@ -25,13 +25,13 @@ def for_append(lista):
     start_time = time.time()
     nowa_lista = []
     for x in lista:
-        nowa_lista.append(x)
+        nowa_lista.append(x**x)
     return time.time() - start_time
 
 
 def list_map(lista):
     start_time = time.time()
-    nowa_lista = list(map(lambda x: x, lista))
+    nowa_lista = list(map(lambda x: x**x, lista))
     return time.time() - start_time
 
 
